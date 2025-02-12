@@ -1,12 +1,18 @@
 import Image from "next/image";
 
+import Hero from '../components/Hero';
+import FeatureCards from '../components/FeatureCards';
+import Footer from '../components/Footer';
+
 export default function Home() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Ace Evil Fam 2025</h1>
-      <p>Welcome to our awesome website!</p>
+    <div style={{ fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif' }}>
+      <Hero />
+      <FeatureCards />
+      <Footer />
     </div>
   );
+
 
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
