@@ -2,9 +2,9 @@
 // components/FeatureCards.js
 export default function FeatureCards() {
   const features = [
-    { title: 'Your Mom', description: 'Not all who enter leave unchanged' },
-    { title: 'Your Dad', description: 'You were warned' },
-    { title: 'Your Bà nội', description: 'Unlock the unknown. Embrace the inevitable.' },
+    { title: 'Your Mom', description: '"Not all who enter leave unchanged."' },
+    { title: 'Your Dad', description: '"You were warned"' },
+    { title: 'Your Bà nội', description: '"Unlock the unknown. Embrace the inevitable."' },
   ];
 
   return (
