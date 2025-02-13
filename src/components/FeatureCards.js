@@ -2,9 +2,9 @@
 // components/FeatureCards.js
 export default function FeatureCards() {
   const features = [
-    { title: 'Fast', description: 'Experience fast performance and smooth transitions.' },
-    { title: 'Secure', description: 'All your data is protected with top-notch security.' },
-    { title: 'Reliable', description: 'Always available, always on. Count on us.' },
+    { title: 'Your Mom', description: 'Not all who enter leave unchanged' },
+    { title: 'Your Dad', description: 'You were warned' },
+    { title: 'Your Bà nội', description: 'Unlock the unknown. Embrace the inevitable.' },
   ];
 
   return (

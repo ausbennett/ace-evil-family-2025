@@ -1,5 +1,8 @@
 // components/Hero.js
-export default function Hero() {
+
+import ScrollDownArrow from "./ScrollDownArrow";
+
+export default function Hero({ onButtonClick }) {
   return (
     <section
       style={{
@@ -17,7 +20,8 @@ export default function Hero() {
       <p style={{ color: 'var(--comment-color)', fontSize: '1.2rem' }}>
         Evil by blood, family by choice.
       </p>
-      {/* <button style={{ marginTop: '20px' }}>Learn More</button> */}
+      < ScrollDownArrow />
+      <button onClick={onButtonClick} style={{ marginTop: '20px', borderRadius: '0.25rem'}}>Talent Show</button>
     </section>
   );
 }
