@@ -10,14 +10,29 @@ export default function TalentShow() {
 
   const videos = [
     {
-      title: "Rendition of Cotton Eye Joe - Austin",
-      embedUrl: "https://www.youtube.com/embed/_e-0jl0aI_s",
-      thumbnail: "https://img.youtube.com/vi/_e-0jl0aI_s/sddefault.jpg"
+      title: "Flute - Visali",
+      embedUrl: "https://www.youtube.com/embed/EVUIBbMhg6w",
+      thumbnail: "https://img.youtube.com/vi/EVUIBbMhg6w/sddefault.jpg"
     },
     {
       title: "Piano - Vivian",
       embedUrl: "https://youtube.com/embed/JXYLzKwYjvc",
       thumbnail: "https://img.youtube.com/vi/JXYLzKwYjvc/sddefault.jpg"
+    },
+    {
+      title: "Faith",
+      embedUrl: "https://youtube.com/embed/KkObcYoQRsU",
+      thumbnail: "https://img.youtube.com/vi/KkObcYoQRsU/sddefault.jpg"
+    },
+    {
+      title: "Shmooves - Ella",
+      embedUrl: "https://youtube.com/embed/bxvuThkyAtE",
+      thumbnail: "https://img.youtube.com/vi/bxvuThkyAtE/sddefault.jpg"
+    },
+    {
+      title: "Rendition of Cotton Eye Joe - Austin",
+      embedUrl: "https://www.youtube.com/embed/_e-0jl0aI_s",
+      thumbnail: "https://img.youtube.com/vi/_e-0jl0aI_s/sddefault.jpg"
     },
   ]
 
